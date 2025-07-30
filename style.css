@@ -1,0 +1,263 @@
+/*                  */
+/* General settings */
+/*                  */
+body {
+    font-family: Verdana;
+    margin: 0;
+    background-color: #ffffff;
+    font-size: 110%;
+}
+h1 {
+    
+    font-size: 38px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+h2 {
+    clear: both;
+    border-bottom: solid 5px #534800;
+    margin-top: 30px;
+}
+
+
+
+h3 {
+    clear: both;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+p {line-height: 1.5;
+  }
+
+/* link */
+a:link {color: #111cc}
+a:visited {color: #660099}
+a:hover {color: #ff0000}
+
+
+/* figure */
+img {
+    max-width: 100%;
+    max-height: 800px;
+}
+
+figure figucaption {
+    text-align: center;
+}
+
+
+/* table */
+table, th, td {border: none}
+th, td {padding: 5px 10px 5px 10px}
+
+
+/*         */
+/* headder */
+/*         */
+header {
+    background-color: #003066;
+    border-bottom: solid 1px #003066;
+    -webkit-box-shadow: 0 1px pt #003066;
+    box-shadow: 0 1px 7pt #003066;
+    position: fixed;
+    width: 100%;
+    margin-top: -70px;      /*containerのmargin-topと逆符号*/
+    z-index: 10;
+}
+
+header h1 {
+    font-size: 27px;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    text-decoration: none;
+}
+header h1 a {
+    text-decoration: none;
+    color: #000000;
+}
+header h1 a:hover {color: #000000}
+header h1 a:visited {color: #000000}
+
+
+/*                        */
+/* navigation menu */
+/*                        */
+nav {
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: right;
+    margin-top: -27px;
+    margin-bottom: 5px;
+}
+nav a {
+    color: #000000;
+    text-decoration: none;
+}
+nav a:visited {color: #000000}
+nav a:hover {color: #ff0000}
+nav ul {
+    list-style-type: none;
+    margin-top:0;
+    margin-bottom: 0;
+    font-size: 0;
+}
+nav li {
+    display: inline;
+    font-size: 14px;
+    border-right: solid 1px #aaaaaa;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+nav li:first-shild{border-left: solid 1px #aaaaaa}
+
+
+/*        */
+/* footer */
+/*        */
+footer {
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    clear: both;
+    text-align: right;
+}
+
+
+/*      */
+/* article */
+/*      */
+article {
+    background-color: #ffffff;
+    margin-left: auto;
+    margin-right: auto;
+    border: solid 2px #aaaaaa;
+    padding: 50px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    overflow: hidden;
+    -wekid-box-shadow: 1px 1px 3px #aaaaaa;
+    box-shadow: 1px 1px 3px #aaaaaa;
+}
+
+
+/*            */
+/* side bar */
+/*            */
+aside {
+    background-color: #ffffff;
+    margin-left: auto;
+    margin-right: auto;
+    border: solid 3px #003066;
+    padding: 10px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    border-radius: 10px;
+    -wekid-box-shadow: 1px 1px 3px #aaaaaa;
+    box-shadow: 1px 1px 3px #003066;
+    /* width: 250px; */
+    width:285px;
+}
+
+aside h1 {font-size: 26px}
+
+aside a {
+    color: #000000;
+    text-decoration: none;
+}
+aside a:visited {color: #000000}
+aside a:hover {color: #ff0000}
+
+aside ul li {
+    position: relative;
+    margin-top: 20px;
+}
+
+/* circles */
+/* aside ul li::after,
+/* aside ul li::before {
+    display: circle ;
+    content: '';
+    position: absolute;
+}
+aside ul li::after {
+    top: .45em;
+    left: -1em;
+    width: 16px;
+    height: 16px;
+    background-color: #8b4513;
+    border-radius: 100%;
+}
+aside ul li::before {
+    z-index: 2;
+    top: 0.6em;
+    left: -.975em;
+    width: 6px;
+    height: 6px;
+    border-right: 3px solid #fff;
+    border-bottom: 3px solid #fff;
+    -webkit-transform: rotate(-60deg);
+    transform: rotate(-45deg);
+}
+*/
+aside ul {
+  list-style-type: none;
+  margin-left: 0px;
+}
+
+aside ul {
+  list-style-type: none;
+  margin-left: 0px;
+}
+
+/*       */
+/* 2column set */
+/*       */
+#container {
+    width:98%;
+    margin-top: 70px;
+    margin-left:auto;
+    margin-right:auto;
+    text-align:left;
+}
+#container_menu {
+    width:300px;
+    float:left;
+}
+#container_content {
+    margin-left:17%;
+}
+
+
+
+
+/*                    */
+/* Contact Page */
+/*                    */
+input, textarea {display: block}
+input {width: 400px}
+input[type="submit"] {
+    width: 200px;
+    background-color: #ffaa00;
+    background-image: -webkit-gradient(
+	      linear,
+	      left top,left bottom,
+	      from(#ffe7b8),
+	      to(#ffaa00));
+    background-image: -webkit-linear-gradient(
+	      top,
+	      #ffe7b8 0%,
+	      #ffaa00 100%);
+    border: solid 1px #aaaaaa;;
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+textarea {
+    width: 600px;
+    height: 120px;
+}
