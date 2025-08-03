@@ -1,12 +1,18 @@
 /*                  */
 /* General settings */
 /*                  */
+
+/* ここでフォント変える */
 body {
-    font-family: Verdana;
-    margin: 0;
-    background-color: #ffffff;
-    font-size: 110%;
-}
+    font-family:
+      -apple-system, BlinkMacSystemFont, /* iOS / macOS Safari & Chrome */
+      "Hiragino Sans", "Hiragino Kaku Gothic ProN", /* macOS 日本語 */
+      "Noto Sans JP", /* Google推奨Webフォント（Android/Chrome OS） */
+      "Yu Gothic", "YuGothic", /* Windows 日本語 */
+      "Meiryo", /* Windows 日本語 */
+      sans-serif;
+  }
+  
 h1 {
     
     font-size: 38px;
@@ -30,7 +36,7 @@ p {line-height: 1.5;
   }
 
 /* link */
-a:link {color: #111cc}
+a:link {color: #1111cc}
 a:visited {color: #660099}
 a:hover {color: #ff0000}
 
@@ -41,7 +47,7 @@ img {
     max-height: 800px;
 }
 
-figure figucaption {
+figure figcaption {
     text-align: center;
 }
 
@@ -54,16 +60,28 @@ th, td {padding: 5px 10px 5px 10px}
 /*         */
 /* headder */
 /*         */
+/* まずネガティブマージンをやめる */
 header {
-    background-color: #003066;
-    border-bottom: solid 1px #003066;
-    -webkit-box-shadow: 0 1px pt #003066;
-    box-shadow: 0 1px 7pt #003066;
-    position: fixed;
-    width: 100%;
-    margin-top: -70px;      /*containerのmargin-topと逆符号*/
+    position: static;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: #FFCC66;
+    /* border-bottom: 1px solid #003066; */
+    box-shadow: 0 1px 7px rgba(0,48,102,.35);
     z-index: 10;
-}
+  
+    /* 高さは padding で作る（ここを変えるだけで厚み調整） */
+    padding: 28px 0;   /* ← 太さを増やすなら 16px/20px などに */
+  }
+  
+  /* ヘッダーの下を押し下げるだけで済む */
+  #container {
+    margin-top: 64px;  /* ← 上の padding + 行高に合わせてここだけ変更 */
+  }
+  
+  /* 余計なマイナスはオフ */
+  nav { margin-top: 0; }
 
 header h1 {
     font-size: 27px;
@@ -74,10 +92,14 @@ header h1 {
 }
 header h1 a {
     text-decoration: none;
-    color: #000000;
+    color: #004080;
 }
 header h1 a:hover {color: #000000}
 header h1 a:visited {color: #000000}
+
+.header-title {
+    color: #004080;  /* えんじ色（マルーン） */
+  }  
 
 
 /*                        */
@@ -110,7 +132,7 @@ nav li {
     padding-left: 10px;
     padding-right: 10px;
 }
-nav li:first-shild{border-left: solid 1px #aaaaaa}
+nav li:first-child{border-left: solid 1px #aaaaaa}
 
 
 /*        */
@@ -128,7 +150,7 @@ footer {
 /*      */
 /* article */
 /*      */
-article {
+/* article {
     background-color: #ffffff;
     margin-left: auto;
     margin-right: auto;
@@ -139,8 +161,17 @@ article {
     margin-bottom: 10px;
     border-radius: 10px;
     overflow: hidden;
-    -wekid-box-shadow: 1px 1px 3px #aaaaaa;
+    -webkid-box-shadow: 1px 1px 3px #aaaaaa;
     box-shadow: 1px 1px 3px #aaaaaa;
+} */
+
+article {
+    background-color: #ffffff;
+    padding: 50px;
+    margin: 0 auto;
+    border: none;
+    box-shadow: none;
+    border-radius: 0;
 }
 
 
@@ -156,7 +187,7 @@ aside {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     border-radius: 10px;
-    -wekid-box-shadow: 1px 1px 3px #aaaaaa;
+    -webkid-box-shadow: 1px 1px 3px #aaaaaa;
     box-shadow: 1px 1px 3px #003066;
     /* width: 250px; */
     width:285px;
@@ -223,12 +254,12 @@ aside ul {
     margin-right:auto;
     text-align:left;
 }
-#container_menu {
+/* #container_menu {
     width:300px;
     float:left;
-}
+} */
 #container_content {
-    margin-left:17%;
+    margin-left:0%;
 }
 
 
@@ -261,3 +292,11 @@ textarea {
     width: 600px;
     height: 120px;
 }
+
+
+/* --- 追加: モバイル対応（~900px で縦並び） --- */
+@media (max-width: 900px) {
+    #container_menu { float: none; width: auto; }
+    #container_content { margin-left: 0; }
+    article, aside { padding: 20px; }
+  }
