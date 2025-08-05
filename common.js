@@ -114,11 +114,31 @@ function Header() {
 // }
 
 function Footer() {
-    var html = "";
-    html += '<footer>';
-    // html += '<small><a href="https://hallas.phas.ubc.ca/home" target="_blank">Return to The Quantum Materials Design Lab</a></small><br>';
-    html += '<small>© 2025 Potential of Japanese</small>';
-    html += '</footer>';
-    document.write(html);
-}
-
+    document.write(`
+      <footer style="background-color:#f8f8f8; padding:20px 10px; font-size:0.9em; color:#555;">
+        <p style="text-align:center;">&copy; 2025 Potential of Japanese. All rights reserved.</p>
+        <p style="text-align:center;">
+          <strong>会社名:</strong> Potential of Japanese<br>
+          <strong>住所:</strong> coming soon...<br>
+          <strong>電話番号:</strong> <a href="tel:09093988731">090-9398-8731</a><br>
+          <strong>メールアドレス:</strong> <a href="mailto:potential.of.japanese@gmail.com">potential.of.japanese@gmail.com</a><br>
+          <strong>SNS情報:</strong> 
+          <a href="https://www.threads.com/@potential.of.japanese" target="_blank">Threads</a> |
+          <a href="https://www.instagram.com/potential.of.japanese" target="_blank">Instagram</a> |
+          <a href="https://x.com/pot_of_Japanese" target="_blank">X</a>
+        </p>
+        <!--
+        <p>
+          <a href="mailto:potential.of.japanese@gmail.com">Contact</a> |
+          <a href="https://www.threads.com/@potential.of.japanese" target="_blank">Threads</a> |
+          <a href="https://www.instagram.com/potential.of.japanese" target="_blank">Instagram</a> |
+          <a href="https://x.com/pot_of_Japanese" target="_blank">X</a>
+        </p>
+        -->
+      </footer>
+    `);
+  }
+//   <!--コメントアウト-->
+  
+  
+  
