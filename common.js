@@ -17,7 +17,7 @@ function Header() {
     html += '<li><a class="menu-link" href="index.html">ホーム</a></li>';
     html += '<li><a class="menu-link" href="introduction.html">オンライン授業</a></li>';
     html += '<li><a class="menu-link" href="research.html">単語帳</a></li>';
-    html += '<li><a class="menu-link" href="publications&presentations.html">先生はこちら</a></li>';    
+    html += '<li><a class="menu-link" href="publications&presentations.html">先生になる</a></li>';    
     html += '</ul>';
     html += '</nav>';
     html += '</header>';
