@@ -121,11 +121,20 @@ function Footer() {
           <strong>会社名:</strong> Potential of Japanese<br>
           <strong>住所:</strong> coming soon...<br>
           <strong>電話番号:</strong> <a href="tel:09093988731">090-9398-8731</a><br>
-          <strong>メールアドレス:</strong> <a href="mailto:potential.of.japanese@gmail.com">potential.of.japanese@gmail.com</a><br>
+          <strong>メールアドレス:</strong> 
+          <a href="mailto:potential.of.japanese@gmail.com">potential.of.japanese@gmail.com</a><br>
           <strong>SNS情報:</strong> 
-          <a href="https://www.threads.com/@potential.of.japanese" target="_blank">Threads</a> |
-          <a href="https://www.instagram.com/potential.of.japanese" target="_blank">Instagram</a> |
-          <a href="https://x.com/pot_of_Japanese" target="_blank">X</a>
+          <a href="https://www.instagram.com/potential.of.japanese" target="_blank">
+            <i class="fab fa-instagram"></i>
+          </a>
+          &nbsp;
+          <a href="https://x.com/pot_of_Japanese" target="_blank">
+            <i class="fab fa-x-twitter"></i>
+          </a>
+          &nbsp;
+          <a href="https://www.threads.com/@potential.of.japanese" target="_blank">
+            <i class="fab fa-threads"></i>
+          </a>
         </p>
         <!--
         <p>
@@ -138,6 +147,7 @@ function Footer() {
       </footer>
     `);
   }
+  
 //   <!--コメントアウト-->
   
   
