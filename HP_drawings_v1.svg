@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.4 (e7c3feb1, 2024-10-09)"
+   sodipodi:docname="HP_drawings.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#999999"
+     borderopacity="1"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     inkscape:zoom="3.8445278"
+     inkscape:cx="232.66837"
+     inkscape:cy="720.50461"
+     inkscape:window-width="1104"
+     inkscape:window-height="843"
+     inkscape:window-x="400"
+     inkscape:window-y="38"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs1" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="opacity:0.657534;fill:#000000;fill-opacity:1;stroke-width:0.264583"
+       id="rect1"
+       width="61.673252"
+       height="44.907711"
+       x="37.123707"
+       y="46.704021" />
+    <ellipse
+       style="opacity:0.657534;fill:#000000;fill-opacity:1;stroke-width:0.264583"
+       id="path1"
+       cx="67.06218"
+       cy="133.52559"
+       rx="41.91386"
+       ry="19.160624" />
+    <text
+       xml:space="preserve"
+       style="font-size:7.05556px;font-family:'.Arial Hebrew Desk Interface';-inkscape-font-specification:'.Arial Hebrew Desk Interface';text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;opacity:0.657534;fill:#000000;fill-opacity:1;stroke-width:0.264583"
+       x="50.296635"
+       y="202.98285"
+       id="text1"><tspan
+         sodipodi:role="line"
+         id="tspan1"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05556px;font-family:Arial;-inkscape-font-specification:Arial;stroke-width:0.264583"
+         x="50.296635"
+         y="202.98285">a</tspan></text>
+  </g>
+</svg>
