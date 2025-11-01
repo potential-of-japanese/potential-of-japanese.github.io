@@ -80,6 +80,16 @@ a:hover {color: #ff0000}
   line-height: 1.8;
 }
 
+.greeting {
+  text-align: right;   /* ← 右寄せにする */
+  margin-top: 30px;    /* 上に余白を追加（必要に応じて調整） */
+  margin-right: 50px;  /* ページ端にくっつきすぎないように */
+  line-height: 1.6;    /* 行間を少し広めに */
+}
+
+.greeting p {
+  margin: 0;           /* 不要な段落間の余白を削除 */
+}
 
 
 
