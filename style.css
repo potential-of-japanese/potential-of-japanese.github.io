@@ -15,7 +15,7 @@ body {
   
 h1 {
     
-    font-size: 38px;
+    font-size: 40px;
     margin-top: 0;
     margin-bottom: 0;
 }
@@ -23,7 +23,11 @@ h2 {
     clear: both;
     border-bottom: solid 5px #534800;
     margin-top: 30px;
+    font-size: 32px;     /* ← 文字の大きさ */
+    font-weight: bold;   /* ← 太字（デフォルトで太いけど強調したい時） */
+    margin-bottom: 20px; /* ← 下にも少し余白を追加して見やすく */
 }
+
 
 
 
@@ -39,6 +43,44 @@ p {line-height: 1.5;
 a:link {color: #1111cc}
 a:visited {color: #660099}
 a:hover {color: #ff0000}
+
+
+
+/* --- 特長リスト --- */
+.feature-list {
+  margin: 40px 0;
+}
+
+.feature-item {
+  margin-bottom: 40px;
+}
+
+.feature-item h3 {
+  position: relative;
+  font-size: 24px;
+  font-weight: bold;
+  padding-left: 16px; /* テキストとラインの間隔 */
+  margin-bottom: 10px;
+}
+
+.feature-item h3::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 6px;
+  height: 100%;
+  background-color: #66cccc; /* ← 紫のライン色（調整OK） */
+  border-radius: 3px;
+}
+
+.feature-item p {
+  margin: 0;
+  font-size: 18px;
+  line-height: 1.8;
+}
+
+
 
 
 /* figure */
